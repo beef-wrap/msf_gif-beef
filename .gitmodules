@@ -1,0 +1,3 @@
+[submodule "msf_gif"]
+	path = msf_gif
+	url = git@github.com:notnullnotvoid/msf_gif.git

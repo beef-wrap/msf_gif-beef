@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Project]
+Name = "msf_gif-beef"
+DefaultNamespace = "msf_gif"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
+LibPaths = ["$(ProjectDir)\\libs\\debug\\msf_gif.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\release\\msf_gif.lib"]

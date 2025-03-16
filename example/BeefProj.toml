@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", msf_gif-beef = "*", stb_image = "*"}
+
+[Project]
+Name = "example"
+TargetType = "BeefGUIApplication"
+StartupObject = "example.Program"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"

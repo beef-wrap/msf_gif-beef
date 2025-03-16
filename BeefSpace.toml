@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {msf_gif-beef = {Path = "."}, example = {Path = "example"}, stb_image = {Path = "../../wrappers/stb-beef/stb_image"}}
+
+[Workspace]
+StartupProject = "example"
