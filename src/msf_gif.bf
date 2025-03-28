@@ -12,7 +12,7 @@ HOW TO USE:
 USAGE EXAMPLE:
 
 	c_int width = 480, height = 320, centisecondsPerFrame = 5, quality = 16;
-	MsfGifState gifState = {};
+	MsfGifState gifState = {}
 	// msf_gif_bgra_flag = true; //optionally, set this flag if your pixels are in BGRA format instead of RGBA
 	// msf_gif_alpha_threshold = 128; //optionally, enable transparency (see function documentation below for details)
 	msf_gif_begin(&gifState, width, height);
